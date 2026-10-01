@@ -18,9 +18,9 @@ Code is in `1_1_lora_range/` as `1_1_send.c` and `1_1_receive.c`.
 Longest distance packet:
 
 ```
-RSSI: TODO dBm
-SNR: TODO dB
-Distance: TODO
+RSSI: -93 dBm
+SNR: -15 dB
+Distance: 450m
 ```
 
 ![1.1 receiver log](images/1.1.png)
@@ -41,3 +41,13 @@ Parameters changed from 1.1:
 
 Frequency, coding rate 4/5, payload, and `tx_power = -10` are unchanged. The
 shorter airtime also means about 275x less transmit energy per packet.
+
+## 2
+
+### 2.1 LoRaWAN
+
+Code is in `2_lorawan/`. Keys go in `2_lorawan/src/secrets.h`, which is gitignored.
+
+### 2.2
+
+TODO: screenshot of TTN live data with decoded payload, and serial monitor.
