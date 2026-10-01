@@ -23,6 +23,8 @@ SNR: TODO dB
 Distance: TODO
 ```
 
+![1.1 receiver log](images/1.1.png)
+
 ### 1.2 Trading Range for Bandwidth
 
 Code is in `1_2_lora_bandwidth/` as `1_2_send.c` and `1_2_receive.c`.
