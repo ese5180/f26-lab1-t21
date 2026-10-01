@@ -21,7 +21,7 @@
 #include <zephyr/logging/log.h>
 LOG_MODULE_REGISTER(lorawan_class_a);
 
-static uint8_t data[] = "{\"name\":\"Vihaan Ravishankar\",\"team\":\"21\",\"board\":\"WL55JC\"}";
+static uint8_t data[] = "{\"name\":\"Team 21\",\"team\":\"21\",\"board\":\"WL55JC\"}";
 
 static void dl_callback(uint8_t port, uint8_t flags, int16_t rssi, int8_t snr, uint8_t len,
 			const uint8_t *hex_data)
