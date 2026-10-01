@@ -7,7 +7,7 @@
 | Vihaan Ravishankar |      vihaan1@engineering.upenn.edu         |
 | Rico Zhuang           | zzhuan13@engineering.upenn.edu     |
 
-**GitHub Repository URL:**
+**GitHub Repository URL:** https://github.com/ese5180/f26-lab1-t21
 
 ## 1
 
@@ -50,4 +50,6 @@ Code is in `2_lorawan/`. Keys go in `2_lorawan/src/secrets.h`, which is gitignor
 
 ### 2.2
 
-TODO: screenshot of TTN live data with decoded payload, and serial monitor.
+![2.2 TTN live data with decoded payload](images/2.2.2.png)
+
+![2.2 serial monitor](images/2.2.1.png)
